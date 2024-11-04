@@ -25,12 +25,12 @@ font-weight: 400;
 
 /*-------------navbar-------------*/
 
-header nav {
+.header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
- header nav ul{
+ .header nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +48,23 @@ header nav {
     gap: 32px;
  }
 
- .navbar__button
+.navbar__nav__button{
+   display: flex;
+   justify-content: space-between;
+   gap: 32px;
+   border-radius: 50px;
+   color:white;
+   text-align: center;
+   padding: 7px 66px;
+   background-color: red;
+}
 
-
+.jumbotron{ 
+   font-size: 1.5rem;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   padding: 80px 80px;
+   margin-bottom: 50px;
+}
