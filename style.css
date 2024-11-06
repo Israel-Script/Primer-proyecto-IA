@@ -40,11 +40,15 @@ font-weight: 400;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 50px;
+    background-color: black;
+    padding: 38px 68px;
  }
 
  .navbar__nav__list{
     display: flex;
     gap: 32px;
+    color: cornsilk;
  }
 
 .navbar__nav__button{
@@ -66,4 +70,5 @@ font-weight: 400;
    text-align: center;
    padding: 80px 80px;
    margin-bottom: 50px;
+   color: antiquewhite;
 }
