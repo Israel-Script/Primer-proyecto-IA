@@ -17,7 +17,7 @@ font-weight: 400;
 /*---------heading background-----------*/
 .background {
     padding: 25px 80px;
-    background-image:url(/assets/div\ \(2\).jpg);
+    background-image:url(/assets/div.png);
     background-size: cover;
     background-position: center;
 }
@@ -41,7 +41,7 @@ font-weight: 400;
     justify-content: space-between;
     align-items: center;
     border-radius: 50px;
-    background-color: black;
+    background-color: rgb(28, 28, 28);
     padding: 38px 68px;
  }
 
@@ -62,8 +62,8 @@ font-weight: 400;
    background-color: red;
 }
 
-.jumbotron{ 
-   font-size: 1.5rem;
+.jumbotron h1{ 
+   font-size: 56px;
    font-weight: bold;
    display: flex;
    justify-content: space-between;
@@ -71,4 +71,60 @@ font-weight: 400;
    padding: 80px 80px;
    margin-bottom: 50px;
    color: antiquewhite;
+}
+
+.card {
+   flex-direction: column; 
+   display: grid;
+   align-items: center;
+   flex-basis: 300px;
+   padding: 20px 20px;
+   background-color:white;
+   border-radius: 24px;
+
+
+}
+
+.section__card {
+   display: flex;
+   flex-basis: 200px;
+   flex-wrap: wrap;
+   gap: 19px;
+   justify-content: center;
+   padding: 40px 40px;
+
+
+}
+
+.card__body__button {
+   text-align: center;
+   padding: 14px 64px;
+   background-color: red;
+   border-radius: 50px;
+   color: white;
+}
+
+.fond{
+   background-color: rgb(8, 8, 8);
+}
+
+.footer{
+   
+   background-color: azure;
+   padding: 35px 0px;
+   text-align: center;
+
+}
+.footer_body{
+ display: flex;
+ justify-content: space-between;
+ padding: 6px 50px;
+
+}
+
+.footer__line{
+   background-color: gray;
+   height: 2px;
+   opacity: .2;
+   height: 1px;
 }
