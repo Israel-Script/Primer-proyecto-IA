@@ -1,0 +1,219 @@
+/* seteo de estilos */
+* { 
+box-sizing: border-box;
+
+margin: unset;
+padding: unset;
+border: unset;
+outline: unset;
+
+list-style: none;
+text-decoration: none;
+font-size: 1rem;
+font-family: sans-serif;
+font-weight: 400;
+}
+
+/*---------heading background-----------*/
+.background {
+    padding: 25px 80px;
+    background-image:url(/assets/div.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*-------------navbar-------------*/
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+ }
+
+ .navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(28, 28, 28);
+    padding: 38px 68px;
+ }
+
+ .navbar__nav__list{
+    display: flex;
+    gap: 32px;
+    color: cornsilk;
+ }
+
+.navbar__nav__button{
+   display: flex;
+   justify-content: space-between;
+   gap: 32px;
+   border-radius: 50px;
+   color:white;
+   text-align: center;
+   padding: 7px 66px;
+   background-color: red;
+}
+
+   
+              
+.navbar__nav__button:hover{
+   animation-name: surprise;
+       -webkit-animation-name: surprise;
+       -moz-animation-name: surprise;
+   animation-duration: .8s;
+       -webkit-animation-duration: .8s;
+       -moz-animation-duration: .8s;
+}
+
+   @keyframes surprise
+   {
+       0% {transform: rotate(0deg) scale(1,1);;}
+       10% {transform: rotate(7deg) scale(2,2);}
+       20% {transform: rotate(-7deg) scale(2,2);}
+       30% {transform: rotate(7deg) scale(2,2);}
+       40% {transform: rotate(-7deg) scale(2,2);}
+       50% {transform: rotate(7deg) scale(2,2);}
+       60% {transform: rotate(-7deg) scale(2,2);}
+       70% {transform: rotate(7deg) scale(2,2);}
+       80% {transform: rotate(-7deg) scale(2,2);}
+       90% {transform: rotate(7deg) scale(2,2);}
+       100% {transform: rotate(0deg) scale(1,1);}
+   }
+
+.jumbotron h1{ 
+   font-size: 56px;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   padding: 80px 80px;
+   margin-bottom: 50px;
+   color: antiquewhite;
+}
+
+.card {
+   flex-direction: column; 
+   display: grid;
+   align-items: center;
+   flex-basis: 300px;
+   padding: 20px 20px;
+   background-color:white;
+   border-radius: 24px;
+
+
+}
+
+.section__card {
+   display: flex;
+   flex-basis: 200px;
+   flex-wrap: wrap;
+   gap: 19px;
+   justify-content: center;
+   padding: 40px 40px;
+
+
+}
+
+.card__body__button {
+   text-align: center;
+   padding: 14px 64px;
+   background-color: red;
+   border-radius: 50px;
+   color: white;
+   animation: pulse;
+}
+
+.card__body__button:active{
+   background-color:#FF4A78;
+   transition: background-color 0.0s;
+
+}
+
+.navbar__nav__button:active{
+   background-color: #FF4A78;
+   transition: 0.0s;
+}
+
+.fond{
+   background-color: rgb(8, 8, 8);
+   display: flex;
+   flex-direction: column;
+   overflow-x: hidden;
+}
+
+.footer{
+   
+   background-color: azure;
+   padding: 35px 0px;
+   text-align: center;
+
+}
+.footer_body{
+ display: flex;
+ justify-content: space-between;
+ padding: 6px 50px;
+
+}
+
+.footer__line{
+   background-color: gray;
+   height: 2px;
+   opacity: .2;
+   height: 1px;
+}
+.image__women{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+
+}
+
+.image__img__women{
+   max-width: 100%;
+   height: auto;
+   display: block;
+   object-fit: contain;
+}
+
+.card:hover{
+   background-color:#EBEBEB;
+   transform: scale(1.1);
+   box-shadow: 5px 5px 20px ;
+   
+
+
+}
+
+.card__body__button:hover{
+       -webkit-animation-name: swing;
+       -moz-animation-name: swing;
+       animation-duration: 1s;
+       -webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+}
+
+   @keyframes swing {
+       20% {transform: rotate3d(0, 0, 1, 15deg);}
+       40% {transform: rotate3d(0, 0, 1, -10deg);}
+       60% {transform: rotate3d(0, 0, 1, 5deg);}
+       80% {transform: rotate3d(0, 0, 1, -5deg);}
+       to  {transform: rotate3d(0, 0, 1, 0deg);}
+   }
+
+   .card__title{
+      font-size: 32px;
+      font-weight: bold;
+   }
+
+
+
+
